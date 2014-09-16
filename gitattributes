@@ -45,15 +45,15 @@
 *.vcxproj	text eol=crlf
 
 # --- Text files
-*.cd		text # XML class diagram
+*.cd		text
 *.config	text
 *.cshtml	text
-*.datasource	text # XML data source file
-*.disco		text # XML service discovery file
+*.datasource	text
+*.disco		text
 *.htm		text
 *.html		text
 *.map		text
-*.nunit		text # NUnit XML file
+*.nunit		text
 *.pem		text
 *.properties	text
 *.rst		text
