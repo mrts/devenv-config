@@ -1,0 +1,109 @@
+# Assures that line endings are consistently normalized.
+#
+# Comments:
+# - use filter='...' to pass through external filters, e.g. clang-format
+
+# --- Source files
+*.c		text
+*.cc		text
+*.cpp		text
+*.cxx		text
+*.h		text
+*.hh		text
+*.hpp		text
+*.ipp		text
+
+*.asax		text
+*.asmx		text
+*.aspx		text
+*.cs		text
+
+*.js		text
+*.css		text
+
+*.pl		text
+*.py		text
+
+# --- Resource files
+*.rc		text eol=crlf
+*.rc2		text eol=crlf
+*.resx		text eol=crlf
+
+# --- Windows and VS-specific files
+*.bat		text eol=crlf
+*.cmd		text eol=crlf
+*.cpy		text eol=crlf
+*.csproj	text eol=crlf
+*.ddf		text eol=crlf
+*.def		text eol=crlf
+*.inf		text eol=crlf
+*.msbuild	text eol=crlf
+*.ndoc		text eol=crlf
+*.proj		text eol=crlf
+*.sln		text eol=crlf
+*.vcproj	text eol=crlf
+*.vcxproj	text eol=crlf
+
+# --- Text files
+*.cd		text # XML class diagram
+*.config	text
+*.cshtml	text
+*.datasource	text # XML data source file
+*.disco		text # XML service discovery file
+*.htm		text
+*.html		text
+*.map		text
+*.nunit		text # NUnit XML file
+*.pem		text
+*.properties	text
+*.rst		text
+*.settings	text
+*.sql		text
+*.targets	text
+*.txt		text
+*.wsdl		text
+*.xml		text
+*.xsd		text
+*.xsl		text
+
+# --- Binary files
+*.dll		binary
+*.exe		binary
+*.lib		binary
+*.pdb		binary
+
+*.bmp		binary
+*.gif		binary
+*.ico		binary
+*.jpeg		binary
+*.jpg		binary
+*.png		binary
+
+*.snk		binary
+*.zip		binary
+
+*.chm		binary
+*.doc		binary
+*.docx		binary
+*.pdf		binary
+*.ppt		binary
+*.rtf		binary
+*.xls		binary
+*.xlsx		binary
+
+# --- git and repo config files
+.clang-format	text eol=lf
+.gitattributes	text eol=lf
+.gitignore	text eol=lf
+commit-msg	text eol=lf
+pre-commit	text eol=lf
+
+# --- Makefiles
+Makefile 	text eol=lf
+Makefile.dep	text eol=lf
+
+# --- CMake files
+CMakeLists.txt	text
+
+# --- Shell scripts
+*.sh		text eol=lf
